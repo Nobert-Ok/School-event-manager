@@ -1,0 +1,31 @@
+[10-Nov-2017 23:20:42 UTC] PHP Warning:  require_once(/home/mtabeapp/public_html/TLIMSISNW/user/simpleusers/su.inc.php): failed to open stream: No such file or directory in /home/mtabeapp/public_html/TLIMSISNW/user/index.php on line 10
+[10-Nov-2017 23:20:42 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mtabeapp/public_html/TLIMSISNW/user/simpleusers/su.inc.php' (include_path='.:/opt/cpanel/ea-php55/root/usr/share/pear') in /home/mtabeapp/public_html/TLIMSISNW/user/index.php on line 10
+[10-Nov-2017 23:20:43 UTC] PHP Warning:  require_once(/home/mtabeapp/public_html/TLIMSISNW/user/simpleusers/su.inc.php): failed to open stream: No such file or directory in /home/mtabeapp/public_html/TLIMSISNW/user/index.php on line 10
+[10-Nov-2017 23:20:43 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mtabeapp/public_html/TLIMSISNW/user/simpleusers/su.inc.php' (include_path='.:/opt/cpanel/ea-php55/root/usr/share/pear') in /home/mtabeapp/public_html/TLIMSISNW/user/index.php on line 10
+[10-Nov-2017 23:20:57 UTC] PHP Warning:  require_once(/home/mtabeapp/public_html/TLIMSISNW/user/simpleusers/su.inc.php): failed to open stream: No such file or directory in /home/mtabeapp/public_html/TLIMSISNW/user/index.php on line 10
+[10-Nov-2017 23:20:57 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mtabeapp/public_html/TLIMSISNW/user/simpleusers/su.inc.php' (include_path='.:/opt/cpanel/ea-php55/root/usr/share/pear') in /home/mtabeapp/public_html/TLIMSISNW/user/index.php on line 10
+[11-Nov-2017 16:02:30 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'User information key "uCreated" is reserved for internal use!' in /home/mtabeapp/public_html/TLIMSISNW/user/simpleusers/users.obj.php:121
+Stack trace:
+#0 /home/mtabeapp/public_html/TLIMSISNW/user/userinfo.php(41): SimpleUsers->setInfo('uCreated', '2017-11-11 02:2...', '1')
+#1 {main}
+  thrown in /home/mtabeapp/public_html/TLIMSISNW/user/simpleusers/users.obj.php on line 121
+[13-Nov-2017 14:34:30 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'MySQL Prepare statement failed: Column count doesn't match value count at row 1' in /home/mtabeapp/public_html/TLIMSISNW/user/simpleusers/users.obj.php:59
+Stack trace:
+#0 /home/mtabeapp/public_html/TLIMSISNW/user/newuser.php(24): SimpleUsers->createUser('test', 'demo')
+#1 {main}
+  thrown in /home/mtabeapp/public_html/TLIMSISNW/user/simpleusers/users.obj.php on line 59
+[21-Nov-2017 07:42:57 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'MySQL Prepare statement failed: Column count doesn't match value count at row 1' in /home/mtabeapp/public_html/TLIMSISNW/user/simpleusers/users.obj.php:59
+Stack trace:
+#0 /home/mtabeapp/public_html/TLIMSISNW/user/newuser.php(24): SimpleUsers->createUser('john', 'john2017')
+#1 {main}
+  thrown in /home/mtabeapp/public_html/TLIMSISNW/user/simpleusers/users.obj.php on line 59
+[05-Dec-2017 13:37:05 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'MySQL Prepare statement failed: Column count doesn't match value count at row 1' in /home/mtabeapp/public_html/TLIMSISNW/user/simpleusers/users.obj.php:59
+Stack trace:
+#0 /home/mtabeapp/public_html/TLIMSISNW/user/newuser.php(24): SimpleUsers->createUser('John', 'john2017')
+#1 {main}
+  thrown in /home/mtabeapp/public_html/TLIMSISNW/user/simpleusers/users.obj.php on line 59
+[13-Aug-2018 14:45:34 Africa/Khartoum] PHP Fatal error:  Uncaught Exception: User information key "uActivity" is reserved for internal use! in /var/www/html/TLIMSISNW/user/simpleusers/users.obj.php:121
+Stack trace:
+#0 /var/www/html/TLIMSISNW/user/userinfo.php(41): SimpleUsers->setInfo('uActivity', '2018-08-13 15:4...', '12')
+#1 {main}
+  thrown in /var/www/html/TLIMSISNW/user/simpleusers/users.obj.php on line 121
