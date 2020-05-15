@@ -83,7 +83,6 @@ $num = rand(100, 900);
 
 $username = $firstLetter.$restpart.$num;
 
-// $username = 'givenality';
 
 
 $registerUser = new SimpleUsers(); 
