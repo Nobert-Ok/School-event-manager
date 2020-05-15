@@ -71,9 +71,7 @@ INSERT INTO `clubs` (`id`, `names`, `cat`, `admin_email`, `created_date`, `photo
 (1, 'Google Developers Club', '2', 'o.chukwuebu@alustudent.com', '2020-05-10 14:34:28', '', ''),
 (2, 'Poetry Club', '1', 'e.okoye@alustudent.com', '2019-12-04 14:40:36', '1574117732_19112019015532.jpg', 'Maelezo hapa'),
 (41, 'Chess Club ', '1', 'cwanziguya@alueducation.com', '2020-05-04 22:41:26', '1575470890_04122019174810.jpeg', 'alnaldnalda'),
-(42, 'Notary Club', '3', 'brugambwa@alueducation.com', '2020-05-04 22:41:26', '', 'sasdasdas'),
-(43, '', '1', '', '2020-05-11 22:26:31', '', ''),
-(44, 'vv', '1', 'fd', '2020-05-11 22:28:07', '', '');
+(42, 'Notary Club', '3', 'brugambwa@alueducation.com', '2020-05-04 22:41:26', '', 'sasdasdas');
 
 -- --------------------------------------------------------
 

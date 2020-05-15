@@ -13,10 +13,10 @@
 	// $GLOBALS["mysql_database"] = "ALUSM";
 
 	// remote db conn
-	$GLOBALS["mysql_hostname"] = "sql12.freemysqlhosting.net";
-	$GLOBALS["mysql_username"] = "sql12340558";
-	$GLOBALS["mysql_password"] = "9ETjVU3WS3";
-	$GLOBALS["mysql_database"] = "sql12340558";
+	$GLOBALS["mysql_hostname"] = "sql7.freemysqlhosting.net";
+	$GLOBALS["mysql_username"] = "sql7340971";
+	$GLOBALS["mysql_password"] = "fLb7skKBJI";
+	$GLOBALS["mysql_database"] = "sql7340971";
 
 	// $GLOBALS["mysql_hostname"] = "localhost";
 	// $GLOBALS["mysql_username"] = "nsint_ssplanner";

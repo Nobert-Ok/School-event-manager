@@ -10,10 +10,10 @@ if (!isset($_SESSION)) {
 // $dbpass = "";// the password that you created, or were given, to access your database
 
 
-$dbhost = "sql12.freemysqlhosting.net";// this will ususally be 'localhost', but can sometimes differ
-$dbname = "sql12340558";// the name of the database that you are going to use for this project
-$dbuser = "sql12340558";// the username that you created, or were given, to access your database
-$dbpass = "9ETjVU3WS3";// the password that you created, or were given, to access your database
+$dbhost = "sql7.freemysqlhosting.net";// this will ususally be 'localhost', but can sometimes differ
+$dbname = "sql7340971";// the name of the database that you are going to use for this project
+$dbuser = "sql7340971";// the username that you created, or were given, to access your database
+$dbpass = "fLb7skKBJI";// the password that you created, or were given, to access your database
 
 
 // $dbhost = "localhost";// this will ususally be 'localhost', but can sometimes differ
