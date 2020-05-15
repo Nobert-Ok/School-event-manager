@@ -7,7 +7,7 @@ require 'user/simpleusers/su.inc.php';
   </head>
 
   <body class="nav-md">
-\
+
 
         <!-- page content -->
         <div class="right_col" role="main">
